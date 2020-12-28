@@ -1,0 +1,7 @@
+.Servicio-1,.Servicio-2,.Servicio-3,.Servicio-4,.Servicio-5{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    height: 280px;
+    margin: 10px 10px;
+}
