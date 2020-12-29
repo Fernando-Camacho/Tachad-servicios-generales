@@ -25,19 +25,34 @@ header img{
     font-size: 1.8rem;
     line-height:22px ;
 }
+.main-container--title{
+    width: 100%;
+    padding: 15px;
+}
+.main-container--nosotros{
+    width: 100%;
 
+}
+.container--mision, .container--vision{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    max-height: 420px;
+}
 .main-container .backgroundImg,.main-container .backgroundImg2{
     display: inline-block;
-    width: 48%;
+    /*width: 48%;*/
     border-radius: 5px;
-    margin: 15px 5px;
+   /* margin: 15px 5px;*/
+    width: 45%;
+    margin:10px 10px;
 }
-.Servicio-1,.Servicio-2,.Servicio-3{
+.Servicio-1,.Servicio-2,.Servicio-3,.Servicio-4,.Servicio-5{
     display: inline-block;
-    width: 30%;
+    width: 45%;
     vertical-align: top;
-    height: 290px;
-    margin: 0 5px;
+    height: 280px;
+    margin: 10px 5px;
 }
 .main-container--services h2,.main-container--services p{
     display: block;
@@ -48,6 +63,8 @@ header img{
 .main-container--services h2{
     font-size:1.7rem;
     line-height: 18px;
+    display: inline-block;
+    vertical-align: bottom;
 }
     /*
 .main-container--services ul{
@@ -98,13 +115,13 @@ header img{
 }
 .container-services--galeria div{
     display: inline-block;
-    width: 48%;
-    margin:10px 5px;
+    width: 45%;
+    margin:10px 10px;
     border-radius: 5px;
 }
 .main-container--iconos img{
     width: 12%;
-    max-width: 50px;
+    max-width: 43px;
 }
 .img-services{
     width: 100%;
@@ -113,3 +130,18 @@ header img{
     border-radius: 5PX;
     margin-top: 5px;
 }
+.main-container--referencias{
+    margin: 0 auto;
+    text-align: center;
+}
+.main-container--referencias h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+text-align: center;
+margin-top: 20px;
+}
+    .main-container--referencias img{
+        width: 10%;
+        margin:  10px 20px;
+        max-width: 120px;
+    }
